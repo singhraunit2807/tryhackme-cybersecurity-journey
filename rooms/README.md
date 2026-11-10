@@ -1,30 +1,8 @@
-# Room History
+# Completed Room Writeups
 
-The following entries preserve every room name recovered from available prior conversations. The status labels are evidence-based and intentionally avoid claiming completion where the history does not prove it.
+Only explicitly confirmed 100% completed rooms are included:
 
-## Completed
-- [Offensive Security Intro](offensive-security-intro.md)
+1. [Offensive Security Intro](offensive-security-intro.md)
+2. [Agentic Threat Modelling](agentic-threat-modelling.md)
 
-## Partial / in progress
-- [DSI Cyber 101](dsi-cyber-101.md)
-- [Pyramid of Pain](pyramid-of-pain.md)
-- [Rabbit Hole](rabbit-hole.md)
-- [Dead Endpoint](dead-endpoint.md)
-- [Advent of Cyber 2022](advent-of-cyber-2022.md)
-- [Crocc Crew](crocc-crew.md)
-
-## Attempted / completion unconfirmed
-- [Grand Larceny Auto II](grand-larceny-auto-ii.md)
-- [Athens](athens.md)
-- [Operation Reroute](operation-reroute.md)
-- [Adventure Time](adventure-time.md)
-- [OPSEC](opsec.md)
-- [Overheard at Breakfast](overheard-at-breakfast.md)
-- [Handbook for the Recently Compromised](handbook-for-the-recently-compromised.md)
-
-## Mentioned; status unknown
-- [Theseus](theseus.md)
-- [Hacker Holidays](hacker-holidays.md)
-- [TryHackMe Onboarding](tryhackme-onboarding.md)
-
-See the [progress tracker](../progress-tracker.md) for the evidence and status definitions.
+Partial, attempted, unresolved, and merely mentioned rooms are intentionally excluded.
