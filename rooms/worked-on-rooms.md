@@ -35,3 +35,59 @@ This file records rooms where meaningful hands-on work was recovered from prior 
 - Disputed, guessed, or unverified answers are explicitly marked and must be rechecked before public use.
 - No challenge flags, credentials, passwords, API keys, or access tokens are included.
 - Add a full task-by-task walkthrough only when the original prompts, screenshots, or reliable notes are available.
+
+## Recovered assistant-provided answers
+
+The following answer strings were recovered from earlier assistant messages. They are included as historical study notes, not as a guarantee that every answer was accepted by TryHackMe. Items with no user acceptance record should be rechecked against the task wording before relying on them.
+
+### Offensive Security Intro
+
+| Task / prompt context | Recovered answer | Confidence note |
+|---|---|---|
+| Name associated with the account | `Sarah` | Assistant-provided answer; no acceptance record recovered. |
+| Account number | `8881` | Assistant-provided answer; no acceptance record recovered. |
+| Bank transfer URL | `http://fakebank.thm/bank-transfer` | Assistant-provided answer; no acceptance record recovered. |
+| Required protection for the transfer page | `Require login` | Assistant-provided answer; no acceptance record recovered. |
+| Deposit amount discussed | `$2,000` | Assistant-provided answer; no acceptance record recovered. |
+| Final challenge flag | Not reproduced | Flags are intentionally excluded from this public repository. |
+
+### DSI Cyber 101
+
+| Task / prompt context | Recovered answer | Confidence note |
+|---|---|---|
+| Task 1 | `False` | Assistant-provided answer; no explicit acceptance record recovered. |
+| Username discovered during investigation | `dave.saunders` | Recovered from prior assistant response; later investigation was still pending. |
+| Attacker / clue name | `ShadowFigures` | Recovered from prior assistant response; not independently verified. |
+| Login endpoint | `/login` | Recovered from prior assistant response; not independently verified. |
+| Account-lockout / final flag task | Unresolved | No answer is asserted. |
+
+### Operation Reroute
+
+| Task / prompt context | Recovered answer | Confidence note |
+|---|---|---|
+| SSH / hostname answer | `sekureapp.thm` | Recovered from earlier assistant answer. Room completion was not established. |
+
+### Pyramid of Pain
+
+| Task / prompt context | Recovered answer | Confidence note |
+|---|---|---|
+| Task 2 filename | `Sales_Receipt 5606.xls` | Recovered from earlier assistant answer; room was recorded at approximately 5%, so verify the task answer. |
+
+### Advent of Cyber 2022 — Task 16
+
+| Task / prompt context | Recovered answer | Confidence note |
+|---|---|---|
+| Windows build | `10.0.18362` | Recovered from earlier analysis; task wording should be checked. |
+| Suspicious executable | `mysterygift.exe` | Recovered answer; another earlier note had the shortened form `mysterygift.ex`, so use the full extension only after checking the source task. |
+| Process ID | `2040` | Recovered from earlier assistant response. |
+| Number of files | `16` | Recovered from earlier assistant response. |
+| Remaining question | Unresolved | No answer is asserted. |
+
+### Answers deliberately excluded
+
+- **Grand Larceny Auto II:** one proposed flag was explicitly rejected; a later candidate had no acceptance proof. Neither is published.
+- **Athens:** the submitted flag was rejected. The clue strings `shore` and `KingAegeus` are retained only as investigation notes, not verified final answers.
+- **Rabbit Hole:** target `10.49.148.122` was recorded in prior notes, but valid admin credentials, shell access, and the final flag remained pending. No credentials or flag are published.
+- **Dead Endpoint:** endpoint and cache path are retained above; a dependable SHA-256 answer was not recovered.
+- **Defensive Security Intro:** Task 3 URL answer was disputed and is intentionally omitted. The user-provided Task 4 flag is not reproduced.
+- **Secure Network Architecture, Governance & Regulation, Packed Light, BreachBlocker Unlocker, GameBuzz, and the unnamed CTF:** previous answer candidates were incomplete, disputed, or not independently confirmed; they are not presented as verified solutions.
