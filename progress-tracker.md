@@ -15,3 +15,7 @@ Only rooms explicitly confirmed as 100% completed are listed.
 ## Inclusion rule
 
 Do not add a room just because answers were supplied, flags were discussed, or partial progress was shown. Require explicit 100% completion or equivalent completed-room confirmation. Challenge flags are intentionally excluded from public writeups.
+
+## Other rooms with substantial work
+
+See [worked-on rooms](rooms/worked-on-rooms.md) for recovered notes on partial, attempted, and unresolved rooms. These entries are deliberately kept separate from the 100% completion list and do not count as completed rooms.
